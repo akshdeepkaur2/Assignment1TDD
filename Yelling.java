@@ -11,6 +11,10 @@ public String Scream( String name) {
 	else if ( name == "Null") {
 		return "No one is Yelling";
 	}
+	
+	else if(name == "Peter , Albert") {
+		return " Peter and Albert are yelling";
+	}
 	return name;
 }
 }

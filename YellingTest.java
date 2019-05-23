@@ -21,7 +21,7 @@ public class YellingTest {
 	}
 	//R2: NO ONE IS YELLING
 	@Test
-	public void testDivisibleBy3() {
+	public void testnooneisyelling() {
 		Yelling y = new Yelling();
 		
 		String result = y.Scream("Null");
@@ -29,6 +29,13 @@ public class YellingTest {
 	}
 		//R3: UPPERCASE YELLING
 		//R4: TWO PERSONS ARE YELLING
+	@Test
+	public void testTwoPersonsAreYelling() {
+		Yelling y = new Yelling();
+		
+		String result = y.Scream("Peter, Albert");
+		assertEquals("Peter and Albert are Yelling", result);
+	}
 		//R5: MORE THAN TWO PERSONS ARE YELLING
 		//R6: SHOUTING LOUD AT THE PEOPLE
 }

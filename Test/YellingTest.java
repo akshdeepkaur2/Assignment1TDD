@@ -13,10 +13,22 @@ public class YellingTest {
 	@After
 	public void tearDown() throws Exception {
 	}
-
+//R1: ONE PERSON IS  YELLING
+	
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testOnePersonIsYelling() {
+		
 	}
-
+	//R2: NO ONE IS YELLING
+	@Test
+	public void testDivisibleBy3() {
+		Yelling y = new Yelling();
+		
+		String result = y.Scream("Null");
+		assertEquals("No one is Yelling", result);
+	}
+		//R3: UPPERCASE YELLING
+		//R4: TWO PERSONS ARE YELLING
+		//R5: MORE THAN TWO PERSONS ARE YELLING
+		//R6: SHOUTING LOUD AT THE PEOPLE
 }

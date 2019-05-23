@@ -22,7 +22,8 @@ public class Yelling
  
  if(name == "PETER")
 	{
-
+String Str = "Peter is yelling";
+System.out.println(Str.toUpperCase());  
 return "PETER IS YELLING";
 
 }

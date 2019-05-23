@@ -1,8 +1,9 @@
 
 public class Yelling {
+	
+		
 
-
-public String Scream( String name) {
+public String Scream (String name) {
 	
 	if (name == "Peter") {
 		return "Peter is yelling";
@@ -13,8 +14,14 @@ public String Scream( String name) {
 	}
 	
 	else if(name == "Peter , Albert") {
+		
 		return " Peter and Albert are yelling";
 	}
 	return name;
+}
+
+public String Scream(String[] names) {
+	// TODO Auto-generated method stub
+	return null;
 }
 }

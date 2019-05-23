@@ -5,7 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class YellingTest {
-
+	private String[] Scream= {"Peter", "Albert","Emad","Pritesh"};
 	@Before
 	public void setUp() throws Exception {
 	}
@@ -32,8 +32,8 @@ public class YellingTest {
 	@Test
 	public void testTwoPersonsAreYelling() {
 		Yelling y = new Yelling();
-		
-		String result = y.Scream("Peter, Albert");
+		String[] names = {"Peter","Albert"};
+ 		String result = y.Scream(names);
 		assertEquals("Peter and Albert are Yelling", result);
 	}
 		//R5: MORE THAN TWO PERSONS ARE YELLING

@@ -22,5 +22,11 @@ public class YellingTest {
 		assertEquals("Peter is yelling",result );
 		
 	}
-
+	@Test
+	public void test0PersonIsYelling() {
+		// NOone PERSON IS YELLINg
+		Yelling y = new Yelling();
+		String result = y.Scream("");
+		assertEquals("Nobody is yelling",result );
+	}
 }

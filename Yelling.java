@@ -13,17 +13,19 @@ public class Yelling
      }
      else if(name == "Peter")
   {
- return "Peter is yelling";
+ return name +" is yelling";
  }
-  else if(name == "")
-  {
- return "Nobody is yelling";
- }
+     else if (name == "")
+     {
+    return "Nobody is yelling";
+    }
+ 
   else if(name == "PETER")
   {
- return "PETER IS YELLING";
+	  return name +" IS YELLING";
  }
- return name;
+return name;
+
  
-}
+ }
 }

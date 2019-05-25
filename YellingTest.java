@@ -39,4 +39,8 @@ public class YellingTest {
 	}
 		//R5: MORE THAN TWO PERSONS ARE YELLING
 		//R6: SHOUTING LOUD AT THE PEOPLE
-}
+	@Test
+	public void testALotPeopleYelling() {
+		
+	
+}}

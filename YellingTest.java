@@ -37,4 +37,11 @@ Yelling y = new Yelling();
 String result = y.Scream("Peter, Kadeem, Albert,");
 assertEquals("Peter, Kadeem, and Albert are yelling",result );
 }
+@Test
+public void testLotOfPeopleYelling() {
+// Uppercase  YELLINg
+Yelling y = new Yelling();
+String result = y.Scream("Peter, EMAD");
+assertEquals("Peter is yelling. SO IS EMAD!",result );
+}
 } 
